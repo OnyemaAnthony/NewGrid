@@ -78,6 +78,9 @@ h1,h3,h4,h5,h6{
     margin: 2rem 0;
     grid-gap: 1.5rem;
 }
+.l-heading{
+    font-size: 3rem;
+}
 .btn-light{background: var(--light--color)}
 .btn-primary{background: var(--primary--color)}
 .btn-secondary{background: var(--secondary-color)}
@@ -242,7 +245,16 @@ p-3{padding: 3rem 0}
 .main-footer .footer-container[type='submit']{
     width: 90%;
 }
-
+.article .meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5rem;
+}
+.article .meta .category{
+    margin-top: 0.4rem;
+}
 
 
 
